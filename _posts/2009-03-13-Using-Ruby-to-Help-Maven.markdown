@@ -8,7 +8,7 @@ published: true
 
 <p class="postdate">13 March 2009</p>
 
-Maven projects can become a wasteland of neglected, old dependencies: huge, unmanageable *.pom files  and a local repository that's catalog of every Apache project in the past 10 years.  Who knows if your project still requires that old version of Xerces?
+Maven projects can become a wasteland of neglected, old dependencies: huge, unmanageable .pom files  and a local repository that's catalog of every Apache project in the past 10 years.  Who knows if your project still requires that old version of Xerces?
 
 This script takes the name of a dependency and removes it from every pom.xml in any sub-directory from where it's called, removing the dependency element for the given jar file from each one.  The script also saves the dependency tree in the file $artifactname.xml in case you need to put it back.
 
