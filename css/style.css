@@ -5,7 +5,7 @@ body {
 h2 {
 	padding: 0;
 	margin: 0;
-    font-size: 1.25em;
+  font-size: 1.25em;
 	text-align: center;
 }
 
@@ -13,7 +13,7 @@ h1 {
 	padding-top: 2px;
 	margin: 0;
 	font-size: 1.75em;
-   	color: #004489;
+ 	color: #004489;
 }
 
 a {
@@ -61,4 +61,19 @@ a:hover {
 	padding: 2px;
 	background-color: #D3D3D3;
 	border: 1px solid gray;
+}
+
+.footer {
+  border-top: 4px solid gray;
+  background: #D3D3D3;
+  font-size: small;
+  padding: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }

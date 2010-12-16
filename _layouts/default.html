@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen">
-</head>
-<body>
-  <div class="header">
-    <h2><a href="/">Mike Reedell</a></h2>
-  </div>
-  <div class="content">
-    {{ content }}
-  </div>
-</body>
+	<head>
+	  <title>{{ page.title }}</title>
+	  <link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen">
+	</head>
+	<body>
+	  <div class="header">
+	    <h2><a href="/">Mike Reedell</a></h2>
+	  </div>
+	  <div class="content">
+	    {{ content }}
+	  </div>
+		<div class="footer">
+			<center>
+				<table>
+					<tr>
+						<td>
+							<a href="mailto:mikereedell@gmail.com">mikereedell@gmail.com</a>
+						</td>
+						<td> | </td>
+						<td>
+							<a href="http://twitter.com/mikereedell">twitter.com/mikereedell</a>
+						</td>
+						<td> | </td>
+						<td>
+							<a href="http://github.com/mikereedell">github.com/mikereedell</a>
+						</td>
+						<td> | </td>
+						<td>
+							<a href="http://careers.stackoverflow.com/mikereedell">resume</a>
+						</td>
+						<td> | </td>
+						<td>
+							<a href="http://www.linkedin.com/in/mikereedell">LinkedIn</a>
+						</td>
+					</tr>
+				</table>
+			</center>
+		</div>
+
+	  <!-- google analytics -->
+	  <script type="text/javascript">
+	    var _gaq = _gaq || [];
+	    _gaq.push(['_setAccount', 'UA-16514184-1']);
+	    _gaq.push(['_trackPageview']);
+
+	    (function() {
+	      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	    })();
+	  </script>
+	</body>
 </html>
